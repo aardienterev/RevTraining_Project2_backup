@@ -23,7 +23,8 @@ public class PatientServiceImpl implements PatientService
 	{
 		try
 		{
-			repo.save(obj);
+			if(obj != null)
+				repo.save(obj);
 			
 			String msg = "Patient | Id: " + obj.getPatientId() + " | Username: " + obj.getUsername() + " | was added to the database";
 			log.info(msg);
@@ -32,7 +33,7 @@ public class PatientServiceImpl implements PatientService
 		}
 		catch (NullPointerException e)
 		{
-			String msg = "Patient was null | Aborting addPatient() | Error Msg: " + e.getMessage();
+			String msg = "Patient was null in addPatient() | Error Msg: " + e.getMessage();
 			log.error(msg);
 			
 			return msg;
@@ -59,7 +60,7 @@ public class PatientServiceImpl implements PatientService
 		}
 		catch (NullPointerException e)
 		{
-			String msg = "Patient was null | Aborting updatePatient() | Error Msg: " + e.getMessage();
+			String msg = "Patient was null in updatePatient() | Error Msg: " + e.getMessage();
 			log.error(msg);
 			
 			return msg;
@@ -87,7 +88,7 @@ public class PatientServiceImpl implements PatientService
 		}
 		catch (NullPointerException e)
 		{
-			String msg = "Patient was null | Aborting deletePatient() | Error Msg: " + e.getMessage();
+			String msg = "Patient was null in deletePatient() | Error Msg: " + e.getMessage();
 			log.error(msg);
 			
 			return msg;
