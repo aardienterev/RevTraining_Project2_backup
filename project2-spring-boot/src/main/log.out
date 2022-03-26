@@ -18,3 +18,6 @@ getPatients() called | Result: [Patient(patientId=3, username=tester, password=t
 getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890, insuranceProvider=testing to see if I fix the problem)]
 Patient | Id: 4 | Username: tester1 | was added to the database
 Patient | Id: 5 | Username: tester2 | was added to the database
+Unhandled exception in addAppointment() | org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.training.pms.models.Appointment.doctor -> com.training.pms.models.Doctor; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.training.pms.models.Appointment.doctor -> com.training.pms.models.Doctor
+Appointment | Id: 7 | Date: 2899-05-06 | was added to the database
+Appointment | Id: 8 | Date: 2899-05-06 | was added to the database

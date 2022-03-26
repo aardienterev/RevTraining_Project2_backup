@@ -2,6 +2,7 @@ package com.training.pms.services;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -100,7 +101,27 @@ public class AppointmentServiceImpl implements AppointmentService
 	@Override
 	public Appointment getAppointmentById(int id)
 	{
-		return null;
+		Appointment obj = null;
+		
+		try
+		{
+			Optional<Appointment> temp = repo.findById(id);
+			
+			if(temp == null)
+				throw new NullPointerException("AppointmentRepository returned a null obj");
+			else
+				obj = temp.get();
+			
+			log.info("getAppointmentById() called | Result: " + obj);
+		}catch(NullPointerException e)
+		{
+			log.error("NullPointer exception in getAppointmentById() | Error: " + e.getMessage());
+		}catch (Exception e)
+		{
+			log.error("Unhandled exception in getAppointmentById() | Error: " + e.getMessage());
+		}
+		
+		return obj;
 	}
 
 	@Override
