@@ -8,9 +8,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,7 +22,6 @@ import lombok.ToString;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 @Data
 @Entity
 @Table(name = "insurance")
@@ -33,7 +35,9 @@ public class Insurance
 	private String phoneNumber;
 	private String address;
 	
-	@OneToMany
-	@JoinColumn(name = "insuranceId")
+	@OneToMany 									// "Hey guys, I have a foreign key to mutlple patients"
+	@JsonIgnore									// "Don't be a dick and give me a normal json message instead of an infinite loop" 
+	@JoinColumn(name = "insuranceId")			// "Oh I know that guy"
 	List<Patient> customerList = new ArrayList<Patient>();
+	
 }

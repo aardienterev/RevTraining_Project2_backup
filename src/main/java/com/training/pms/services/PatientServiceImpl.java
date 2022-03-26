@@ -147,10 +147,10 @@ public class PatientServiceImpl implements PatientService
 		try
 		{
 			pList = (ArrayList<Patient>) repo.findAll();
-			log.info("getPatients() called | Result: " + pList);
+			//log.info("getPatients() called | Result: " + pList);
 		} catch (Exception e)
 		{
-			log.error("Unhandled exception in getPatients() | Error: " + e.getMessage());
+			log.error("Unhandled exception in getPatients() | Error: " );
 		}
 		
 		return pList;
