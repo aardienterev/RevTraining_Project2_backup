@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.training.pms.models.Patient;
+import com.training.pms.services.InsuranceService;
 import com.training.pms.services.PatientService;
 
 @RestController
@@ -23,6 +24,8 @@ public class PatientController
 {
 	@Autowired
 	private PatientService pService;
+	//@Autowired
+	//private InsuranceService iService;
 	
 	/************************************************************************************************************/
 	// Posts
