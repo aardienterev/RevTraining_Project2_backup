@@ -3,6 +3,8 @@ package com.training.pms.controllers;
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,57 +28,125 @@ public class PatientController
 	// Posts
 	
 	@PostMapping
-	public String addPatient(@RequestBody Patient obj)
+	public ResponseEntity<String> addPatient(@RequestBody Patient obj)
 	{
-		return "Adding Patient in PatientController |\nResult ->" + pService.addPatient(obj);
+		ResponseEntity<String> res = null;
+		
+		if(obj == null)
+			res = new ResponseEntity<String>(HttpStatus.NO_CONTENT);
+		else
+			res = new ResponseEntity<String>( "Adding Patient in PatientController |\nResult ->" + pService.addPatient(obj) , HttpStatus.OK); 
+		
+		return res;
 	}
 	
 	/************************************************************************************************************/
 	// Puts
 	
 	@PutMapping("{patientId}")
-	public String updatePatient(@PathVariable("patientId") int id, @RequestBody Patient obj)
+	public ResponseEntity<String> updatePatient(@PathVariable("patientId") int id, @RequestBody Patient obj)
 	{
-		return "Updating Patient id: " + id + " in PatientController | Obj -> " + obj 
-				+ " |\nResult -> " + pService.updatePatient(obj);
+		ResponseEntity<String> res = null;
+		
+		if(id <= 0 || obj == null)
+			res = new ResponseEntity<String>(HttpStatus.NO_CONTENT);
+		else
+			res = new ResponseEntity<String>("Updating Patient id: " + id + " in PatientController | Obj -> " + obj 
+												+ " |\nResult -> " + pService.updatePatient(obj), HttpStatus.OK);
+		
+		return res;
 	}
 	
 	/************************************************************************************************************/
 	// Deletes
 	
 	@DeleteMapping
-	public String deletePatient(@RequestBody Patient obj) 
+	public ResponseEntity<String> deletePatient(@RequestBody Patient obj) 
 	{
-		return  "Deleting Patient in PatientController | Obj -> " + obj 
-				+ " |\nResult -> " + pService.deletePatient(obj);
+		ResponseEntity<String> res = null;
+
+		if(obj == null)
+			res = new ResponseEntity<String>(HttpStatus.NO_CONTENT);
+		else
+			res = new ResponseEntity<String>( "Deleting Patient in PatientController | Obj -> " + obj 
+												+ " |\nResult -> " + pService.deletePatient(obj), HttpStatus.OK);
+		
+		
+		return res;
 	}
 	
 	/************************************************************************************************************/
 	// Gets
 	
 	@GetMapping("{patientId}")
-	public Patient getPatientById(@PathVariable("patientId") int id)
+	public ResponseEntity<Patient> getPatientById(@PathVariable("patientId") int id)
 	{
-		return pService.getPatientById(id);
+		ResponseEntity<Patient> res = null;
+
+		if(id <= 0)
+			res = new ResponseEntity<Patient>(HttpStatus.NO_CONTENT);
+		else
+			res = new ResponseEntity<Patient>(pService.getPatientById(id), HttpStatus.OK);
+		
+		return res;
 	}
 	@GetMapping("CheckPatientStatus/{patientId}")
-	public boolean doesPatientExist(@PathVariable("patientId") int id)
+	public ResponseEntity<Boolean> doesPatientExist(@PathVariable("patientId") int id)
 	{
-		return pService.doesPatientExist(id);
+		ResponseEntity<Boolean> res = null;
+		
+		if(id <= 0)
+			res = new ResponseEntity<Boolean>(HttpStatus.NO_CONTENT);
+		else
+			res = new ResponseEntity<Boolean>( pService.doesPatientExist(id), HttpStatus.OK);
+		
+		return res;
 	}
-	@GetMapping("getPatients")
-	public ArrayList<Patient> getPatients()
+	@GetMapping
+	public ResponseEntity<ArrayList<Patient>> getPatients()
 	{
-		return pService.getPatients();
+		ResponseEntity<ArrayList<Patient>> res = null;
+		
+		ArrayList<Patient> tList = pService.getPatients();
+		
+		if(tList == null)
+			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NO_CONTENT);
+		else if(tList.isEmpty())
+			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NOT_FOUND);
+		else
+			res = new ResponseEntity<ArrayList<Patient>>(tList, HttpStatus.OK);
+		
+		return res;
 	}
 	@GetMapping("getPatientsByName/{patientName}")
-	public ArrayList<Patient> getPatientsByName(@PathVariable("patientName") String name)
+	public ResponseEntity<ArrayList<Patient>> getPatientsByName(@PathVariable("patientName") String name)
 	{
-		return pService.getPatientsByName(name);
+		ResponseEntity<ArrayList<Patient>> res = null;
+
+		ArrayList<Patient> tList = pService.getPatientsByName(name);
+		
+		if(tList == null)
+			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NO_CONTENT);
+		else if(tList.isEmpty())
+			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NOT_FOUND);
+		else
+			res = new ResponseEntity<ArrayList<Patient>>(tList, HttpStatus.OK);
+		
+		return res;
 	}
 	@GetMapping("getPatientsByInsurance/{insuranceName}")
-	public ArrayList<Patient> getPatientsByInsurance(@PathVariable("insuranceName")String insurName)
+	public ResponseEntity<ArrayList<Patient>> getPatientsByInsurance(@PathVariable("insuranceName")String insurName)
 	{
-		return pService.getPatientsByInsurance(insurName);
+		ResponseEntity<ArrayList<Patient>> res = null;
+		ArrayList<Patient> tList = pService.getPatientsByInsurance(insurName);
+		
+		if(tList == null)
+			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NO_CONTENT);
+		else if(tList.isEmpty())
+			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NOT_FOUND);
+		else
+			res = new ResponseEntity<ArrayList<Patient>>(tList, HttpStatus.OK);
+		
+		return res;
 	}
 }

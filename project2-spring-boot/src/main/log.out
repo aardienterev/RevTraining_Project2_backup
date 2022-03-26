@@ -1,1 +1,5 @@
 Patient | Id: 9001 | Username: Test Patient 1 | was added to the database
+Patient was null in getPatientById() | Search Id: 9001 | Error: null
+doesPatientExist() called | Search Id: 9999 | Result: true
+getPatients() called | Result: [Patient(patientId=9999, username=tester, password=tester, contactId=1, email=tester, address=tester)]
+getPatients() called | Result: [Patient(patientId=9999, username=tester, password=tester, contactId=1, email=tester, address=tester)]

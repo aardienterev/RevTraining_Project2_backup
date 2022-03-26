@@ -23,4 +23,6 @@ public class Patient
 	private String username;
 	private String password;
 	private int contactId;
+	private String email;
+	private String address;
 }
