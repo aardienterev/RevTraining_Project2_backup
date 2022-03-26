@@ -54,7 +54,7 @@ public class InsuranceServiceImpl implements InsuranceService
 		try
 		{
 			repo.save(obj);
-			msg = "Insurance | Id: " + obj.getInsuranceId() + " | Name: " + obj.getInsuranceName() + " | was added to the database";
+			msg = "Insurance | Id: " + obj.getInsuranceId() + " | Name: " + obj.getInsuranceName() + " | was updated in the database";
 			log.info(msg);
 		}
 		catch (NullPointerException e)

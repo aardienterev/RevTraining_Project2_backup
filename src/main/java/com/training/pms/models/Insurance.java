@@ -36,8 +36,8 @@ public class Insurance
 	private String address;
 	
 	@OneToMany 									// "Hey guys, I have a foreign key to mutlple patients"
-	@JsonIgnore									// "Don't be a dick and give me a normal json message instead of an infinite loop" 
-	@JoinColumn(name = "insuranceId")			// "Oh I know that guy"
+	@JsonIgnore									// "Don't be a dick and give me a normal json message." 
+	@JoinColumn(name = "insuranceId")			// "Oh I know dat guy"
 	List<Patient> customerList = new ArrayList<Patient>();
 	
 }

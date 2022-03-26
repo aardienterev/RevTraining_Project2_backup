@@ -17,3 +17,4 @@ Patient | Id: 3 | Username: tester | was added to the database
 getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890, insuranceProvider=testing to see if I fix the problem)]
 getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890, insuranceProvider=testing to see if I fix the problem)]
 Patient | Id: 4 | Username: tester1 | was added to the database
+Patient | Id: 5 | Username: tester2 | was added to the database

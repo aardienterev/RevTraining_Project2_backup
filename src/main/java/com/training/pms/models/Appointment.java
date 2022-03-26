@@ -28,7 +28,7 @@ public class Appointment
 	private int appointmentId;
 	private String appointmentDescription;
 	private String notableSymptoms;
-	private Date appointmentDate; // java.sql.Date; Make sure you're reading the right documentation.
+	private Date appointmentDate; // java.sql.Date; Make sure you're reading the right documentation. It methods to work with java.util.date
 	
 	@OneToOne
 	@JoinColumn(name = "patientId")
