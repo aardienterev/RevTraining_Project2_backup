@@ -96,3 +96,28 @@ Patient | Id: 3 | Username: tester | was retrieved by getPatientById()
 getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
 Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
 getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890)]
+Patient | Id: 6 | Username: testing | was added to the database
+Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=6, username=testing, password=tester, email=tester@aol.com, address=123456 not an address, phoneNumber=null)]

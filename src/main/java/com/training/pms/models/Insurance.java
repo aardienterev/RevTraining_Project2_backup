@@ -10,6 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
@@ -28,32 +29,19 @@ import lombok.ToString;
 @Data
 @Entity
 @Table(name = "insurance")
-//@JsonIdentityInfo(
-//        generator = ObjectIdGenerators.StringIdGenerator.class,
-//        property="insuranceId")
 public class Insurance
 {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int insuranceId;
-
-	private String insuranceName;
-	private String phoneNumber;
-	private String address;
 	
+	@OneToOne
+	@JoinColumn(name = "patientId")
+	private Patient patient;
 	
-	//@Column(nullable = true)// "Hey guys, I have a foreign key to mutlple patients"
-	//@JoinColumn(name = "insuranceId")			// "Oh I know dat guy"
-	//@JsonIgnore//(mappedBy="insuranceProvider", targetEntity=Insurance.class) 
-	@JsonManagedReference 
-	@OneToMany
-	@JoinColumn(name = "insuranceId")
-	private List<Patient> customerList = new ArrayList<Patient>();
+	@OneToOne
+	@JoinColumn(name = "providerId")
+	private InsuranceProvider provider;
 	
-	@JsonIgnore
-	public List<Patient> getCustomerList()
-	{
-		return this.customerList;
-	}
 	
 }

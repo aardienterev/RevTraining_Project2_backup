@@ -30,7 +30,7 @@ public class InsuranceServiceImpl implements InsuranceService
 			if(obj != null)
 				repo.save(obj);
 			
-			msg = "Insurance | Id: " + obj.getInsuranceId() + " | Provider Name: " + obj.getInsuranceName() + " | was added to the database";
+			msg = "Insurance | Id: " + obj.getInsuranceId()  + " | was added to the database";
 			log.info(msg);
 		}
 		catch (NullPointerException e)
@@ -54,7 +54,7 @@ public class InsuranceServiceImpl implements InsuranceService
 		try
 		{
 			repo.save(obj);
-			msg = "Insurance | Id: " + obj.getInsuranceId() + " | Name: " + obj.getInsuranceName() + " | was updated in the database";
+			msg = "Insurance | Id: " + obj.getInsuranceId() + " | was updated in the database";
 			log.info(msg);
 		}
 		catch (NullPointerException e)
@@ -80,7 +80,7 @@ public class InsuranceServiceImpl implements InsuranceService
 		{
 			repo.delete(obj);
 			
-			msg = "Insurance | Id: " + obj.getInsuranceId() + " | Name: " + obj.getInsuranceName() + " | was deleted to the database";
+			msg = "Insurance | Id: " + obj.getInsuranceId() +  " | was deleted to the database";
 			log.info(msg);
 		}
 		catch (NullPointerException e)
@@ -135,7 +135,7 @@ public class InsuranceServiceImpl implements InsuranceService
 			else								
 			{
 				obj = temp.get();							// Otherwise, assign our result;
-				log.info("Insurance | Id: " + obj.getInsuranceId() + " | Name: " + obj.getInsuranceName() + " | was retrieved by getInsuranceById() ");
+				log.info("Insurance | Id: " + obj.getInsuranceId() + " | was retrieved by getInsuranceById() ");
 			}
 		}
 		catch (NullPointerException e)
