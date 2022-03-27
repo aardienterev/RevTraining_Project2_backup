@@ -32,13 +32,11 @@ public class Appointment
 	private String notableSymptoms;
 	private Date appointmentDate; // java.sql.Date; Make sure you're reading the right documentation. It methods to work with java.util.date
 	
-	@JsonIgnore	
 	@OneToOne
 	@JoinColumn(name = "patientId")
 	private Patient patient;
 	
-	@OneToOne
-	@JsonIgnore	
+	@OneToOne	
 	@JoinColumn(name = "doctorId")
 	private Doctor doctor;
 }

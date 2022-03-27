@@ -25,11 +25,10 @@ import lombok.ToString;
 
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 @Data
 @Entity
 @Table(name = "patients")
-//@JsonIdentityInfo(generator = ObjectIdGenerators.StringIdGenerator.class,
-//property="patientId")
 public class Patient 
 {
 	@Id
