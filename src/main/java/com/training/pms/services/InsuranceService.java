@@ -1,8 +1,11 @@
 package com.training.pms.services;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import com.training.pms.models.Insurance;
+import com.training.pms.models.InsuranceProvider;
+import com.training.pms.models.Patient;
 
 public interface InsuranceService
 {
@@ -12,5 +15,6 @@ public interface InsuranceService
 	
 	public ArrayList<Insurance> getAllInsurance();
 	public Insurance	getInsuranceById(int id);
-	public Insurance	getInsuranceByName(String name);
+	public List<Insurance> 	getInsuranceByPatient(Patient obj);
+	public List<Insurance> 	getInsuranceByProvider(InsuranceProvider obj);
 }

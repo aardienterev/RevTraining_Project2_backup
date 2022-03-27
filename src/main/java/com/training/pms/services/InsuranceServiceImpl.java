@@ -1,6 +1,7 @@
 package com.training.pms.services;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import org.apache.log4j.Logger;
@@ -8,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.training.pms.models.Insurance;
+import com.training.pms.models.InsuranceProvider;
+import com.training.pms.models.Patient;
 import com.training.pms.repository.InsuranceRepository;
 
 @Service
@@ -150,9 +153,59 @@ public class InsuranceServiceImpl implements InsuranceService
 	}
 
 	@Override
-	public Insurance getInsuranceByName(String name)
+	public List<Insurance> getInsuranceByPatient(Patient obj)
 	{
-		return null;
+		List<Insurance> rList = null;
+		
+		try
+		{
+			List<Insurance> tList = (List<Insurance>)repo.findAll();
+			rList = new ArrayList<Insurance>();
+			
+			for(Insurance temp : tList)
+			{
+				if(temp.getPatient().getPatientId() == obj.getPatientId())
+					rList.add(temp);
+			}	
+		}
+		catch(NullPointerException e)
+		{
+			log.error("Object was null in getInsuranceByPatient() | Error: " + e.getMessage());
+		}
+		catch(Exception e)
+		{
+			log.error("Unhandled error in getInsuranceByPatient() | Search Obj: " + obj + " | Error: " + e.getMessage());
+		}
+		
+		return rList;
+	}
+	
+	@Override
+	public List<Insurance> 	getInsuranceByProvider(InsuranceProvider obj)
+	{
+		List<Insurance> rList = null;
+		
+		try
+		{
+			List<Insurance> tList = (List<Insurance>)repo.findAll();
+			rList = new ArrayList<Insurance>();
+			
+			for(Insurance temp : tList)
+			{
+				if(temp.getProvider().getProviderId() == obj.getProviderId())
+					rList.add(temp);
+			}	
+		}
+		catch(NullPointerException e)
+		{
+			log.error("Object was null in getInsuranceByProvider() | Error: " + e.getMessage());
+		}
+		catch(Exception e)
+		{
+			log.error("Unhandled error in getInsuranceByProvider() | Search Obj: " + obj + " | Error: " + e.getMessage());
+		}
+		
+		return rList;
 	}
 
 }

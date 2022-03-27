@@ -121,3 +121,41 @@ getPatients() called | Result: [Patient(patientId=3, username=tester, password=t
 Patient | Id: 6 | Username: testing | was added to the database
 Patient | Id: 3 | Username: tester | was retrieved by getPatientById() 
 getPatients() called | Result: [Patient(patientId=3, username=tester, password=tester, email=test@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=4, username=tester1, password=tester, email=test1@email.com, address=1800 don't come here ave, phoneNumber=1234567890), Patient(patientId=6, username=testing, password=tester, email=tester@aol.com, address=123456 not an address, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: []
+getPatients() called | Result: []
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: []
+getPatients() called | Result: []
+getPatients() called | Result: []
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+Patient | Id: 1 | Username: aardiente | was added to the database
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null)]
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+Patient | Id: 2 | Username: tester | was added to the database
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), Patient(patientId=2, username=tester, password=tester, name=null, email=tester@email.com, address=123 not an address, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), Patient(patientId=2, username=tester, password=tester, name=null, email=tester@email.com, address=123 not an address, phoneNumber=null)]
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), Patient(patientId=2, username=tester, password=tester, name=null, email=tester@email.com, address=123 not an address, phoneNumber=null)]
+Patient | Id: 3 | Username: tester1 | was added to the database
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), Patient(patientId=2, username=tester, password=tester, name=null, email=tester@email.com, address=123 not an address, phoneNumber=null), Patient(patientId=3, username=tester1, password=tester, name=null, email=tester1@test.com, address=test, phoneNumber=1234567890)]
+Patient | Id: 3 | Username: tester1 | was retrieved by getPatientById() 
+Patient | Id: 3 | Username: tester1 | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), Patient(patientId=2, username=tester, password=tester, name=null, email=tester@email.com, address=123 not an address, phoneNumber=null), Patient(patientId=3, username=tester1, password=tester, name=null, email=tester1@test.com, address=test, phoneNumber=1234567890)]
+getAllInsurance() called | Result: [Insurance(insuranceId=1, patient=Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), provider=InsuranceProvider(providerId=1, providerName=Blue Cross, phoneNumber=0123456789, address=Not A Real Address)), Insurance(insuranceId=2, patient=Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), provider=InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)), Insurance(insuranceId=3, patient=Patient(patientId=2, username=tester, password=tester, name=null, email=tester@email.com, address=123 not an address, phoneNumber=null), provider=InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address))]
+getAllInsurance() called | Result: [Insurance(insuranceId=1, patient=Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), provider=InsuranceProvider(providerId=1, providerName=Blue Cross, phoneNumber=0123456789, address=Not A Real Address)), Insurance(insuranceId=2, patient=Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), provider=InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)), Insurance(insuranceId=3, patient=Patient(patientId=2, username=tester, password=tester, name=null, email=tester@email.com, address=123 not an address, phoneNumber=null), provider=InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address))]
+getAllInsurance() called | Result: [Insurance(insuranceId=1, patient=Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), provider=InsuranceProvider(providerId=1, providerName=Blue Cross, phoneNumber=0123456789, address=Not A Real Address)), Insurance(insuranceId=2, patient=Patient(patientId=1, username=aardiente, password=tester123, name=null, email=aardiente@live.com, address=28505 36th Ave S. Auburn, WA, phoneNumber=null), provider=InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)), Insurance(insuranceId=3, patient=Patient(patientId=2, username=tester, password=tester, name=null, email=tester@email.com, address=123 not an address, phoneNumber=null), provider=InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address))]
