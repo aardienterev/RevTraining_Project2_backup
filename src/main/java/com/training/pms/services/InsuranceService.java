@@ -17,4 +17,5 @@ public interface InsuranceService
 	public Insurance	getInsuranceById(int id);
 	public List<Insurance> 	getInsuranceByPatient(Patient obj);
 	public List<Insurance> 	getInsuranceByProvider(InsuranceProvider obj);
+	public List<InsuranceProvider> getAllInsuranceProviders();
 }

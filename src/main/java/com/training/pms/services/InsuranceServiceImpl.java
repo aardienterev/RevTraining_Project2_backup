@@ -207,5 +207,25 @@ public class InsuranceServiceImpl implements InsuranceService
 		
 		return rList;
 	}
+	
+	public List<InsuranceProvider> getAllInsuranceProviders()
+	{
+		List<InsuranceProvider> rList = null;
+		
+		try
+		{
+			rList = new InsuranceProviderServiceImpl().getAllProviders(); // Might cause a problem idk lets find out :D
+		}
+		catch(NullPointerException e)
+		{
+			log.error("Object was null in getAllInsuranceProviders() | Error: " + e.getMessage());
+		}
+		catch(Exception e)
+		{
+			log.error("Unhandled error in getAllInsuranceProviders() | Error: " + e.getMessage());
+		}
+		
+		return rList;
+	}
 
 }

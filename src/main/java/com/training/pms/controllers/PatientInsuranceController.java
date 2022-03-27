@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.training.pms.models.Insurance;
 import com.training.pms.models.InsuranceProvider;
 import com.training.pms.models.Patient;
+import com.training.pms.services.InsuranceProviderService;
 import com.training.pms.services.InsuranceService;
 
 @RestController
@@ -25,6 +26,9 @@ public class PatientInsuranceController
 {
 	@Autowired
 	private InsuranceService iService;
+	
+	@Autowired
+	private InsuranceProviderService ipService;
 	
 	/************************************************************************************************************/
 	// Posts
@@ -103,6 +107,19 @@ public class PatientInsuranceController
 		else
 			res = new ResponseEntity<List<Insurance>>(tList, HttpStatus.OK);
 		
+		return res;
+	}
+	@GetMapping("/GetAllProviders")
+	public ResponseEntity<List<InsuranceProvider>> getAllInsuranceProviders()
+	{
+		ResponseEntity<List<InsuranceProvider>> res = null;
+		List<InsuranceProvider> tList = ipService.getAllProviders();
+		
+		if(tList == null)
+			res = new ResponseEntity<List<InsuranceProvider>>(HttpStatus.NO_CONTENT);
+		else
+			res = new ResponseEntity<List<InsuranceProvider>>(tList, HttpStatus.OK);
+			
 		return res;
 	}
 }

@@ -129,8 +129,8 @@ public class PatientController
 		
 		if(tList == null)
 			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NO_CONTENT);
-		else if(tList.isEmpty())
-			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NOT_FOUND);
+		//else if(tList.isEmpty())
+			//res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NOT_FOUND);
 		else
 			res = new ResponseEntity<ArrayList<Patient>>(tList, HttpStatus.OK);
 		
@@ -144,8 +144,8 @@ public class PatientController
 		
 		if(tList == null)
 			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NO_CONTENT);
-		else if(tList.isEmpty())
-			res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NOT_FOUND);
+		//else if(tList.isEmpty())
+			//res = new ResponseEntity<ArrayList<Patient>>(HttpStatus.NOT_FOUND);
 		else
 			res = new ResponseEntity<ArrayList<Patient>>(tList, HttpStatus.OK);
 		

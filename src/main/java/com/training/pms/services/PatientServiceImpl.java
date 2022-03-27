@@ -176,7 +176,7 @@ public class PatientServiceImpl implements PatientService
 	@Override
 	public ArrayList<Patient> getPatientsByInsurance(String insurName) // Needs impl
 	{
-
+		
 		return null;
 	}
 
