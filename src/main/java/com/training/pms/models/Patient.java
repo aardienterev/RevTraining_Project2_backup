@@ -38,7 +38,7 @@ public class Patient
 	@Column(unique=true)
 	private String username;
 	private String password;
-	private String name;
+	private String patientName;
 	
 	@Column(unique=true)
 	private String email;

@@ -42,6 +42,20 @@ public class PatientController
 		return res;
 	}
 	
+	@GetMapping("/{username}/{password}")
+	public ResponseEntity<Patient> loginPatient(@PathVariable("username") String username, @PathVariable("password") String password)
+	{
+		ResponseEntity<Patient> res = null;
+		Patient temp = pService.loginPatient(username, password);
+		
+		if(temp == null)
+			res = new ResponseEntity<Patient>(HttpStatus.NO_CONTENT);
+		else
+			res = new ResponseEntity<Patient>(temp, HttpStatus.OK);
+		
+		return res;
+	}
+	
 	/************************************************************************************************************/
 	// Puts
 	

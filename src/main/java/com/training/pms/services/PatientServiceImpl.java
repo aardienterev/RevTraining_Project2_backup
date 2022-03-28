@@ -1,6 +1,7 @@
 package com.training.pms.services;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import org.apache.log4j.Logger;
@@ -178,6 +179,31 @@ public class PatientServiceImpl implements PatientService
 	{
 		
 		return null;
+	}
+	
+	@Override
+	public Patient loginPatient(String username, String password)
+	{
+		Patient temp = null;
+		try
+		{
+			List<Patient> tList = (List<Patient>)repo.findAll();
+			
+			for(Patient obj : tList)
+			{
+				if(obj.getUsername().equals(username) && obj.getPassword().equals(password))
+				{
+					temp = obj;
+					log.info("loginPatient() found a corresponding Patient | Result: " + temp);
+					break;
+				}
+			}
+		}catch (Exception e)
+		{
+			log.error("Unhandled exception in loginPatient() | Error: " + e.getMessage());
+		}
+		
+		return temp;
 	}
 
 }

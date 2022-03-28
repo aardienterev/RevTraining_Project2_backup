@@ -13,6 +13,8 @@ public interface PatientService
 	public Patient getPatientById(int id);
 	public boolean doesPatientExist(int id);
 	
+	public Patient loginPatient(String username, String password);
+	
 	public ArrayList<Patient> getPatients();
 	public ArrayList<Patient> getPatientsByName(String name);
 	public ArrayList<Patient> getPatientsByInsurance(String insurName); 
