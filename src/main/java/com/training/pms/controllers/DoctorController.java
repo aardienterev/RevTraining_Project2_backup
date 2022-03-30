@@ -110,4 +110,18 @@ public class DoctorController
 		
 		return res;
 	}
+
+	@GetMapping("/GetDoctorBySpecialty")///{specialty}")
+	public ResponseEntity<List<Doctor>> getDoctorsBySpecialty(@RequestBody String spec)//@PathVariable("specialty") )//Doctor.SpecialtyType specialty)
+	{
+		ResponseEntity<List<Doctor>> res = null;
+		List<Doctor> result = rService.getDoctoryBySpecialty(spec);
+		
+		if(result == null)
+			res = new ResponseEntity<List<Doctor>>(HttpStatus.NO_CONTENT);
+		else
+			res = new ResponseEntity<List<Doctor>>(result, HttpStatus.OK);
+			
+		return res;
+	}
 }

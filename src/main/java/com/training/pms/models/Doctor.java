@@ -27,35 +27,36 @@ public class Doctor
 	private String doctorName;
 	private String email;
 	private String phoneNumber;
+	private String specialty;
 	
-	@Enumerated(EnumType.STRING)
-	private SpecialtyType specialty;
-
-	enum SpecialtyType
-	{
-		EyeDoctor("Eye Doctor"), Dentist("Dentist"), Psychiatrist("Psychiatrist"), Dermatologist("Dermatologist");
-		
-		private String value;
-		
-		SpecialtyType(String txt)
-		{
-			this.value = txt;
-		}
-		
-		@Override
-		public String toString()
-		{
-			return this.value;
-		}
-		
-		public SpecialtyType fromString(String str) // if null is returned there are no valid arguements
-		{
-			for(SpecialtyType type : SpecialtyType.values())
-				if(type.value.equalsIgnoreCase(str))
-					return type;
-			
-			return null;
-		}
-	}
+//	@Enumerated(EnumType.STRING)
+//	private SpecialtyType specialty;
+//
+//	public static enum SpecialtyType
+//	{
+//		EyeDoctor("Eye Doctor"), Dentist("Dentist"), Psychiatrist("Psychiatrist"), Dermatologist("Dermatologist");
+//		
+//		private String value;
+//		
+//		SpecialtyType(String txt)
+//		{
+//			this.value = txt;
+//		}
+//		
+//		@Override
+//		public String toString()
+//		{
+//			return this.value;
+//		}
+//		
+//		public SpecialtyType fromString(String str) // if null is returned there are no valid arguements
+//		{
+//			for(SpecialtyType type : SpecialtyType.values())
+//				if(type.value.equalsIgnoreCase(str))
+//					return type;
+//			
+//			return null;
+//		}
+//	}
 	
 }

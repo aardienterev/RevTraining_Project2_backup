@@ -1453,3 +1453,31 @@ Method List com.training.pms.services.DoctorInsuranceServiceImpl.getInsuranceByD
 --------------------------------------------------------------------------------------------------------
 Method ResponseEntity com.training.pms.controllers.DoctorInsuranceController.getInsuranceByDoctor(Doctor) has completed
 --------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() was called
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() was called
+getAllProviders() called | Result: []
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() was called
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() was called
+getAllProviders() called | Result: []
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() was called
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() was called
+getAllProviders() called | Result: [Doctor(doctorId=1, doctorName=tester testing, email=youknowthedeal@test.com, phoneNumber=1800notanumber, specialty=Eye Doctor:Dentist), Doctor(doctorId=2, doctorName=Perry Cox, email=perrycox@sacredheart.com, phoneNumber=1800notanumber, specialty=Eye Doctor:Dentist), Doctor(doctorId=3, doctorName=John Dorian, email=casualdaydreams@anywherebuthere.com, phoneNumber=1800notanumber, specialty=Eye Doctor:Dentist)]
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() was called
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() was called
+getAllProviders() called | Result: [Doctor(doctorId=1, doctorName=tester testing, email=youknowthedeal@test.com, phoneNumber=1800notanumber, specialty=Eye Doctor:Dentist), Doctor(doctorId=2, doctorName=Perry Cox, email=perrycox@sacredheart.com, phoneNumber=1800notanumber, specialty=Eye Doctor:Dentist), Doctor(doctorId=3, doctorName=John Dorian, email=casualdaydreams@anywherebuthere.com, phoneNumber=1800notanumber, specialty=Eye Doctor:Dentist)]
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------

@@ -11,5 +11,6 @@ public interface DoctorService
 	public String deleteDoctor(Doctor obj);
 	
 	public Doctor getDoctorById(int id);
+	public List<Doctor> getDoctoryBySpecialty(String spec);//Doctor.SpecialtyType type);
 	public List<Doctor> getAllDoctors();
 }

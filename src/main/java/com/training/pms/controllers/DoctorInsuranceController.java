@@ -96,6 +96,9 @@ public class DoctorInsuranceController
 		return res;
 	}
 	
+	
+	
+	
 //	@GetMapping("/SearchByProvider")
 //	public ResponseEntity<List<Insurance>> getInsuranceByProvider(@RequestBody InsuranceProvider obj)
 //	{

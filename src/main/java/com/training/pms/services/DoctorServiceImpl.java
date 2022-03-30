@@ -1,5 +1,6 @@
 package com.training.pms.services;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -135,6 +136,45 @@ public class DoctorServiceImpl implements DoctorService
 			log.error("Unhandled exception in getAllDoctors() | Error: " + e.getMessage());
 		}
 		return pList;
+	}
+	
+	@Override
+	public List<Doctor> getDoctoryBySpecialty(String spec)//SpecialtyType type) 
+	{
+		List<Doctor> tList = null;
+		List<Doctor> rList = new ArrayList<Doctor>();
+		
+		try
+		{
+			tList = (List<Doctor>) repo.findAll();
+			
+			String[] search = spec.split(":");
+			
+			for(Doctor obj : tList)
+			{
+				String[] has = obj.getSpecialty().split(":");
+				
+				for(int i = 0; i < search.length; i++)
+				{
+					if(has[i].equals(search[i]))
+						rList.add(obj);
+						
+				}
+
+			}
+			
+			if(rList == null)
+				throw new NullPointerException("getDoctoryBySpecialty returned a null list");
+			
+			log.info("getDoctoryBySpecialty() called | Result: " + rList);
+		}catch(NullPointerException e)
+		{
+			log.error("NullPointer exception in getDoctoryBySpecialty() | Error: " + e.getMessage());
+		}catch (Exception e)
+		{
+			log.error("Unhandled exception in getDoctoryBySpecialty() | Error: " + e.getMessage());
+		}
+		return rList;
 	}
 	
 	
