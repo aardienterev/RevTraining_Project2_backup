@@ -19,3 +19,1396 @@ Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) 
 --------------------------------------------------------------------------------------------------------
 Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
 --------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient was null in getPatientById() | Search Id: 3 | Error: null
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient was null in getPatientById() | Search Id: 4 | Error: null
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient was null in getPatientById() | Search Id: 4 | Error: null
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=aardiente, password=tester, patientName=Anthony Ardiente, email=anthony.ms.ardiente@gmail.com, address=123 not my address, phoneNumber=1234567890)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 1 | Username: aardiente | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 1 | Username: tester | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 2 | Username: aardiente | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() was called
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) was called
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() was called
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Patient | Id: 3 | Username: stormwraith | was retrieved by getPatientById() 
+Method Patient com.training.pms.services.PatientServiceImpl.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatientById(int) has completed
+--------------------------------------------------------------------------------------------------------
+getAllProviders() called | Result: [InsuranceProvider(providerId=1, providerName=Liberty Mutual, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=2, providerName=State Farm, phoneNumber=0123456789, address=Not A Real Address), InsuranceProvider(providerId=3, providerName=WA Community Health, phoneNumber=0123456789, address=Not A Real Address)]
+Method List com.training.pms.services.InsuranceProviderServiceImpl.getAllProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientInsuranceController.getAllInsuranceProviders() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=tester, password=tester, patientName=null, email=tester, address=tester, phoneNumber=null), Patient(patientId=2, username=aardiente, password=tester, patientName=null, email=anthony.ms.ardiente@gmail.com, address=not a real addres, phoneNumber=null), Patient(patientId=3, username=stormwraith, password=tester, patientName=null, email=jrosas@aol.com, address=Not an address, phoneNumber=null), Patient(patientId=4, username=jrosas, password=tester, patientName=null, email=tday@yahoo.com, address=Not an address, phoneNumber=null)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() was called
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() was called
+getAllProviders() called | Result: [Doctor(doctorId=1, doctorName=tester testing, email=youknowthedeal@test.com, phoneNumber=null, specialty=null), Doctor(doctorId=2, doctorName=Perry Cox, email=perrycox@sacredheart.com, phoneNumber=null, specialty=null), Doctor(doctorId=3, doctorName=John Dorian, email=casualdaydreams@anywherebuthere.com, phoneNumber=null, specialty=null)]
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.addDoctor(Doctor) was called
+Method String com.training.pms.services.DoctorServiceImpl.addDoctor(Doctor) was called
+Unhandled exception in addDoctor() | could not execute statement; SQL [n/a]; constraint [doctors_pkey]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+Method String com.training.pms.services.DoctorServiceImpl.addDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.addDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.addDoctor(Doctor) was called
+Method String com.training.pms.services.DoctorServiceImpl.addDoctor(Doctor) was called
+Unhandled exception in addDoctor() | could not execute statement; SQL [n/a]; constraint [doctors_pkey]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+Method String com.training.pms.services.DoctorServiceImpl.addDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.addDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.addDoctor(Doctor) was called
+Method String com.training.pms.services.DoctorServiceImpl.addDoctor(Doctor) was called
+Unhandled exception in addDoctor() | could not execute statement; SQL [n/a]; constraint [doctors_pkey]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+Method String com.training.pms.services.DoctorServiceImpl.addDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.addDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.addDoctor(Doctor) was called
+Method String com.training.pms.services.DoctorServiceImpl.addDoctor(Doctor) was called
+Doctor | Id: 4 | was added to the database
+Method String com.training.pms.services.DoctorServiceImpl.addDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.addDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() was called
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() was called
+getAllProviders() called | Result: [Doctor(doctorId=1, doctorName=tester testing, email=youknowthedeal@test.com, phoneNumber=null, specialty=null), Doctor(doctorId=2, doctorName=Perry Cox, email=perrycox@sacredheart.com, phoneNumber=null, specialty=null), Doctor(doctorId=3, doctorName=John Dorian, email=casualdaydreams@anywherebuthere.com, phoneNumber=null, specialty=null), Doctor(doctorId=4, doctorName=Kevin Smith, email=wheretfiam@steve.com, phoneNumber=1230456789, specialty=null)]
+Method List com.training.pms.services.DoctorServiceImpl.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getAllDoctors() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getDoctorById(int) was called
+Method Doctor com.training.pms.services.DoctorServiceImpl.getDoctorById(int) was called
+getAllProviders() called | Result: Doctor(doctorId=4, doctorName=Kevin Smith, email=wheretfiam@steve.com, phoneNumber=1230456789, specialty=null)
+Method Doctor com.training.pms.services.DoctorServiceImpl.getDoctorById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getDoctorById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.deleteDoctor(int,Doctor) was called
+Method String com.training.pms.services.DoctorServiceImpl.deleteDoctor(Doctor) was called
+Doctor | Id: 0 | was deleted to the database
+Method String com.training.pms.services.DoctorServiceImpl.deleteDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.deleteDoctor(int,Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getDoctorById(int) was called
+Method Doctor com.training.pms.services.DoctorServiceImpl.getDoctorById(int) was called
+getAllProviders() called | Result: Doctor(doctorId=4, doctorName=Kevin Smith, email=wheretfiam@steve.com, phoneNumber=1230456789, specialty=null)
+Method Doctor com.training.pms.services.DoctorServiceImpl.getDoctorById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getDoctorById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getDoctorById(int) was called
+Method Doctor com.training.pms.services.DoctorServiceImpl.getDoctorById(int) was called
+getAllProviders() called | Result: Doctor(doctorId=4, doctorName=Kevin Smith, email=wheretfiam@steve.com, phoneNumber=1230456789, specialty=null)
+Method Doctor com.training.pms.services.DoctorServiceImpl.getDoctorById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getDoctorById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.deleteDoctor(int,Doctor) was called
+Method String com.training.pms.services.DoctorServiceImpl.deleteDoctor(Doctor) was called
+Doctor | Id: 4 | was deleted to the database
+Method String com.training.pms.services.DoctorServiceImpl.deleteDoctor(Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.deleteDoctor(int,Doctor) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getDoctorById(int) was called
+Method Doctor com.training.pms.services.DoctorServiceImpl.getDoctorById(int) was called
+Unhandled exception in getAllDoctors() | Error: No value present
+Method Doctor com.training.pms.services.DoctorServiceImpl.getDoctorById(int) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.DoctorController.getDoctorById(int) has completed
+--------------------------------------------------------------------------------------------------------

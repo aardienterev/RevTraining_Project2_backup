@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -15,7 +16,12 @@ public class Project2SpringBootApplication
 
 	public static void main(String[] args) 
 	{
-		SpringApplication.run(Project2SpringBootApplication.class, args);
+		ApplicationContext con = SpringApplication.run(Project2SpringBootApplication.class, args);
+		String allBeans[] = con.getBeanDefinitionNames();
+		
+		Arrays.sort(allBeans);
+		for(String temp : allBeans)
+			System.out.println(temp);
 	}
 
 	@Bean
