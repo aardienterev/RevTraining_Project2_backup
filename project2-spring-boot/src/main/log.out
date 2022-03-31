@@ -1453,3 +1453,31 @@ Method List com.training.pms.services.DoctorInsuranceServiceImpl.getInsuranceByD
 --------------------------------------------------------------------------------------------------------
 Method ResponseEntity com.training.pms.controllers.DoctorInsuranceController.getInsuranceByDoctor(Doctor) has completed
 --------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=joetman, password=1234567890, patientName=null, email=joey@yahoo.com, address=555 hjk, phoneNumber=1234567890), Patient(patientId=2, username=troyman, password=1234567890, patientName=null, email=troyman@yahoo.com, address=ggggg, phoneNumber=1234567890), Patient(patientId=3, username=romeos, password=1234567890, patientName=null, email=romeo@gmai;.com, address=ggg, phoneNumber=1234567890)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=joetman, password=1234567890, patientName=null, email=joey@yahoo.com, address=555 hjk, phoneNumber=1234567890), Patient(patientId=2, username=troyman, password=1234567890, patientName=null, email=troyman@yahoo.com, address=ggggg, phoneNumber=1234567890), Patient(patientId=3, username=romeos, password=1234567890, patientName=null, email=romeo@gmai;.com, address=ggg, phoneNumber=1234567890)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() was called
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() was called
+getPatients() called | Result: [Patient(patientId=1, username=joetman, password=1234567890, patientName=null, email=joey@yahoo.com, address=555 hjk, phoneNumber=1234567890), Patient(patientId=2, username=troyman, password=1234567890, patientName=null, email=troyman@yahoo.com, address=ggggg, phoneNumber=1234567890), Patient(patientId=3, username=romeos, password=1234567890, patientName=null, email=romeo@gmai;.com, address=ggg, phoneNumber=1234567890)]
+Method ArrayList com.training.pms.services.PatientServiceImpl.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.getPatients() has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.loginPatient(String,String) was called
+Method Patient com.training.pms.services.PatientServiceImpl.loginPatient(String,String) was called
+loginPatient() found a corresponding Patient | Result: Patient(patientId=2, username=troyman, password=1234567890, patientName=null, email=troyman@yahoo.com, address=ggggg, phoneNumber=1234567890)
+Method Patient com.training.pms.services.PatientServiceImpl.loginPatient(String,String) has completed
+--------------------------------------------------------------------------------------------------------
+Method ResponseEntity com.training.pms.controllers.PatientController.loginPatient(String,String) has completed
+--------------------------------------------------------------------------------------------------------

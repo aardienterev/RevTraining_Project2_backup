@@ -28,7 +28,8 @@ import lombok.ToString;
 @ToString
 @Data
 @Entity
-@Table(name = "patients")
+@Table(name = "Tpatients")
+//@Table(name = "Tpatients") This is only so it can work on my end 
 public class Patient 
 {
 	@Id
