@@ -19,9 +19,9 @@ public class Project2SpringBootApplication
 		ApplicationContext con = SpringApplication.run(Project2SpringBootApplication.class, args);
 		String allBeans[] = con.getBeanDefinitionNames();
 		
-		Arrays.sort(allBeans);
-		for(String temp : allBeans)
-			System.out.println(temp);
+//		Arrays.sort(allBeans);
+//		for(String temp : allBeans)
+//			System.out.println(temp);
 	}
 
 	@Bean

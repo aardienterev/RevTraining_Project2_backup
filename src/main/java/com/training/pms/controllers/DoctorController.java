@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.training.pms.models.Doctor;
+import com.training.pms.models.DoctorInsurance;
+import com.training.pms.services.DoctorInsuranceService;
 import com.training.pms.services.DoctorService;
 
 @RestController
@@ -26,6 +28,9 @@ public class DoctorController
 {
 	@Autowired
 	private DoctorService rService;
+	
+	@Autowired
+	private DoctorInsuranceService iService;
 	
 	/************************************************************************************************************/
 	// Posts
@@ -111,11 +116,28 @@ public class DoctorController
 		return res;
 	}
 
-	@GetMapping("/GetDoctorBySpecialty")///{specialty}")
-	public ResponseEntity<List<Doctor>> getDoctorsBySpecialty(@RequestBody String spec)//@PathVariable("specialty") )//Doctor.SpecialtyType specialty)
+	@GetMapping("/GetDoctorBySpecialty/{specialty}/{provider}")
+	public ResponseEntity<List<Doctor>> getDoctorsBySpecialty(@PathVariable("specialty") String spec, @PathVariable("provider") String provider)//Doctor.SpecialtyType specialty)
 	{
 		ResponseEntity<List<Doctor>> res = null;
-		List<Doctor> result = rService.getDoctoryBySpecialty(spec);
+		List<Doctor> dList = rService.getDoctoryBySpecialty(spec);
+		List<Doctor> result = new ArrayList<Doctor>();
+
+		for(Doctor d : dList)
+		{
+			List<DoctorInsurance> temp = iService.getInsuranceByDoctor(d);
+			
+			for(DoctorInsurance i : temp)
+			{
+				if(i.getProvider().getProviderName().equals(provider))
+				{
+					result.add(d);
+					break;
+				}
+			}
+		}
+		
+		
 		
 		if(result == null)
 			res = new ResponseEntity<List<Doctor>>(HttpStatus.NO_CONTENT);
